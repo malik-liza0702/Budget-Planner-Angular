@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="card-container">
+        <div class="card">
+            <div class="card-header">
+                <span>
+                    <mat-icon>attach_money</mat-icon>
+                </span>
+                <h2>Income</h2>
+            </div>
+            <hr>
+            <div class="income-details">
+                <div class="month">
+                    <h3>Last Few Months</h3>
+                    <ul>
+                        <li *ngFor="let monthIncome of lastMonthsIncome">{{monthIncome}}</li>
+                    </ul>
+                </div>
+                <div class="month">
+                    <h3>Current Month</h3>
+                    <p>{{currentMonthIncome}}</p>
+                </div>
+                <button class="button" (click)="onIncome()">View</button>
+            </div>
+        </div>
+    </div>
+</div>
+
