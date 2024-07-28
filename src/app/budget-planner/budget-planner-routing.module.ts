@@ -4,6 +4,12 @@ import { LoginComponent } from './login/login.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { IncomeComponent } from './income/income.component';
+import { ExpenseComponent } from './expense/expense.component';
+import { TodoComponent } from './todo/todo.component';
+import { ProfileComponent } from './profile/profile.component';
+import { PreviousComponent } from './previous/previous.component';
+
+
 
 const routes: Routes = [
   {
@@ -21,6 +27,22 @@ const routes: Routes = [
   {
     path:"income",
     component:IncomeComponent
+  },
+  {
+    path:"expense",
+    component:ExpenseComponent
+  },
+  {
+    path:"todo",
+    component:TodoComponent
+  },
+  {
+    path:"profile",
+    component:ProfileComponent
+  },
+  {
+    path:"previous",
+    component:PreviousComponent
   }
 ];
 

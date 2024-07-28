@@ -17,16 +17,16 @@ export class SideNavComponent {
     this.isSlideOut=!this.isSlideOut;
   }
   onDash(){
-    this.router.navigate(['/budget-planne/dashboard']);
+    this.router.navigate(['/budget-planner/dashboard']);
   }
   onProfile(){
-    this.router.navigate(['/budget-planne/profile']);
+    this.router.navigate(['/budget-planner/profile']);
   }
   onHistory(){
-    this.router.navigate(['/budget-planne/history']);
+    this.router.navigate(['/budget-planner/previous']);
   }
   onLogout(){
-    this.router.navigate(['/budget-planne/login']);
+    this.router.navigate(['/budget-planner/login']);
   }
 
 }

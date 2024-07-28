@@ -8,9 +8,6 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.container {
     max-width: 800px;
     margin: 0 auto;
 }
@@ -22,10 +19,6 @@ body {
     margin-bottom: 20px;
 }
 
-.input-form .form-group {
-    display: flex;
-    flex-direction: column;
-}
 .input-form .form-group label {
     font-weight: bold;
     margin-bottom: 5px;
@@ -65,8 +58,7 @@ body {
     margin-bottom: 20px;
 }
 
-.table th,
-.table td {
+.table th, .table td {
     padding: 12px;
     border: 1px solid #dee2e6;
     text-align: left;
@@ -85,9 +77,9 @@ body {
     background-color: #e2e6ea;
 }
 
-.total-expense {
+.total-todoTrans {
     background-color: #f2f9ff;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 20px;
     border-radius: 6px;
 }
@@ -108,4 +100,8 @@ body {
     color: #ffffff;
     width: 800px;
     margin: 0 auto;
+}
+
+.strikeout {
+    text-decoration: line-through;
 }

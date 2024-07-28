@@ -57,7 +57,7 @@ export class DashboardComponent {
     this.router.navigate(['/budget-planner/profile']);
   }
   onHistory(){
-    this.router.navigate(['/budget-planner/history']);
+    this.router.navigate(['/budget-planner/previous']);
   }
   onLogout(){
     this.router.navigate(['/budget-planner/login']);
